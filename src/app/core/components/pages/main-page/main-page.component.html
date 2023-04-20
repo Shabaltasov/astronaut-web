@@ -1,0 +1,76 @@
+<app-header></app-header>
+<div class="container">
+  <div class="container-info" id="main_info">
+    <h1 class="container-info__title">
+      The first provider of space <br>
+      systems,applications and services<br>
+      in Luxembourg
+    </h1>
+    <p class="container-info__content">
+      Since 2006 as part of the large network of OHB companies, LuxSpace<br>
+      is offering innovative and affordable infrastructure products and<br>
+      solutions for space, as well as space-augmented applications and<br>
+      services.
+    </p>
+    <button class="container-info__message-btn">Message</button>
+  </div>
+  <img class="container-img-earth" src="../../../../../assets/img/earth.png" alt="earth">
+  <img class="container-img-rays" src="../../../../../assets/img/rays.png" alt="rays">
+  <img class="container-img-satellite" src="../../../../../assets/img/satellite.png" alt="satellite">
+</div>
+<div class="container-about" id="about">
+  <img class="container-about_img" src="../../../../../assets/img/landing_space.png" alt="landing_space">
+  <div class="container-about_info">
+    <h1 class="container-about_info__title">About us</h1>
+    <p class="container-about_info__text">We smartly combine engineering processes and knowledge gained <br>
+      over several decades by the space sector with innovative NewSpace<br>
+      approaches to offer our customers affordable, quick-to-market and<br>
+      reliable solutions.
+    <p><br>
+    <p class="container-about_info__text">Our partners and customers are international agencies like ESA and<br>
+      the European Commission, national Governments and Institutions and<br>
+      a variety of commercial customers</p>
+  </div>
+</div>
+<div class="container-resources" id="resources">
+  <h1 class="container-resources_title">Resources</h1>
+  <h2 class="container-resources_pre-info">Interlocked strategy</h2>
+  <p class="container-resources_info">Lorem ipsum dolor sit amet. Eum sapiente Quis qui sunt dignissimos rem dolores
+    quasi qui iure beatae ex recusandae molestiae <br>
+    est beatae aliquid qui velit temporibus</p>
+  <div class="container-resources_slider">
+    <app-slider-cards
+      [imgSrc]="'../../../../assets/icons/icon_chip.png'"
+      [cardTitle]="'Components & Technology'"
+      [cardInfo]="'Communication subsystem\n'+
+'Satellite Simulators\n'+
+'Electronics & Software\n'+
+'Drag Sails technologies'"
+    ></app-slider-cards>
+    <app-slider-cards
+      [imgSrc]="'../../../../assets/icons/icon_planet.png'"
+      [cardTitle]="'Microsatellites'"
+      [cardInfo]="'Modular and scalable\n'+
+'Multi-Mission\n'+
+'Launch mass: 20-100 kg\n'+
+'Payload power: 15-100 W'"
+    ></app-slider-cards>
+    <app-slider-cards
+      [imgSrc]="'../../../../assets/icons/icon_connection.png'"
+      [cardTitle]="'Application & Services'"
+      [cardInfo]="'AIS (Naval Vessel Tracking)\n'+
+'ADS-B (Aircraft Tracking)\n'+
+'Earth Observation (Optical, SAR, Data Quality Control)\n'+
+'Telecommunications (M2M)'"
+    ></app-slider-cards>
+  </div>
+  <div class="container-resources_dots">
+    <div class="container-resources_dots__dot"></div>
+    <div class="container-resources_dots__dot"></div>
+    <div class="container-resources_dots__dot"></div>
+  </div>
+</div>
+<app-footer id="contact" ></app-footer>
+
+
+

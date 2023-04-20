@@ -1,0 +1,59 @@
+.header {
+  width: 100%;
+  position: fixed;
+  background: linear-gradient(90deg, #54579F 0%, #455BAB 37.1%, #10054D 100%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+  height: 103px;
+  z-index: 100;
+
+  & .logo-img {
+    margin-left: 20px;
+    width: 93.24px;
+    height: 70px;
+    cursor: pointer;
+  }
+
+  &__links-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+
+    & .links-title {
+      font-family: "Cabin", sans-serif;
+      font-size: 20px;
+      color: #fff;
+      cursor: pointer;
+      margin-right: 70px;
+      font-weight: 400;
+      font-style: normal;
+    }
+
+    & .links-title:first-child {
+      font-weight: 700;
+    }
+
+    & .link_container{
+      display: flex;
+      flex-direction: column;
+      margin-top: 20px;
+
+    }
+
+    & .links-title_dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 8px;
+      background: #F05986;
+      margin-left: 25px;
+      margin-top: 12px;
+    }
+
+    & .earth-img {
+      cursor: pointer;
+    }
+  }
+}
